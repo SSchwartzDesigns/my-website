@@ -1,6 +1,8 @@
 :root {
     --ice-color: #00b7ff;
+    --water-color: #00ffff;
 }
+
 /* 0 - 255; 0% - 100% */
 /* UNIVERSAL SELECTOR */
 /* {
@@ -30,7 +32,9 @@ p {
 }
 
 /* ID SELECTOR */
-
+section#services {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 /* CLASS SELECTOR */
 
@@ -38,6 +42,9 @@ p {
 section#what>ul {
     color: var(--ice-color);
 }
+
+/* DESCENDENT SELECTOR */
+
 main em {
     color: #00b7ff;
 }
@@ -48,6 +55,8 @@ section#title a:visited {
 section#title a:hover {
     color: #000000;
 }
+
+/* COMBINATION SELECTOR */
 h1, h2, h3 {
-    color: #40e0d0;
+    color: var(--water-color);
 }
